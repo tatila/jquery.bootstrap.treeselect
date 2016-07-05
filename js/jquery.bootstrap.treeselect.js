@@ -70,7 +70,7 @@
             });
 
             if (option.children.length > 0) {
-                $childul = $('<ul></ul>').appendTo($li);
+                var $childul = $('<ul></ul>').appendTo($li);
 
                 $(option.children).each(function (i, child) {
                     $childul.append(createListItem(child));
